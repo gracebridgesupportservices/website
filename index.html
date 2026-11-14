@@ -306,6 +306,17 @@ h1.big .ln:nth-child(2)>span{animation-delay:.12s}
 @media(max-width:620px){.brand2{width:150px!important}.tr .circ:not(.dark){display:none!important}.topbar2{gap:10px}.hcard{padding:14px 14px 20px}}
 .cl .row{overflow-wrap:anywhere;word-break:break-word;align-items:flex-start}.cl .row i{flex:none}
 @media(max-width:620px){.cl .row{font-size:14.5px}}
+
+/* final fixes */
+.chip,.chip.p,.chip.n{background:none!important;border-radius:0;padding:0;font-size:12.5px;letter-spacing:.16em;margin-bottom:10px}
+.chip.p{color:#8a6414}.chip.n{color:#17766c}
+.stline{margin:26px 0 0;max-width:470px;font-size:15.5px;line-height:1.6;color:#4d5d6c}
+@media(max-width:1000px){
+ .pcard{margin-top:18px!important}
+ .bpanel{padding-bottom:26px!important}
+ .stline{font-size:15px;margin-top:22px}
+}
+@media(max-width:620px){.cl .row{flex-direction:column;align-items:flex-start;gap:8px;font-size:13.5px;word-break:normal}.cl .ic{display:none}}
 </style>
 </head>
 <body>
@@ -331,15 +342,7 @@ h1.big .ln:nth-child(2)>span{animation-delay:.12s}
    <h1 class="big"><span class="ln"><span>Grace</span></span><span class="ln"><span>Br<span class="ii">&#305;</span>dge</span></span></h1>
    <div class="smallrow"><p><b>We support</b> people with dignity<br>and help them stay connected.</p></div>
    <a class="btn" href="#contact">Get in touch <i><svg viewBox="0 0 24 24" fill="none" stroke="#0B2A4A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
-   <div class="results">
-    <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path d="M30 168 C34 122 64 94 104 86" fill="none" stroke="#fff" stroke-width="23" stroke-linecap="round"/><path d="M172 164 C168 128 142 102 104 90" fill="none" stroke="#fff" stroke-width="21" stroke-linecap="round"/><circle cx="66" cy="54" r="18" fill="#fff"/><circle cx="140" cy="66" r="15.5" fill="#fff"/></svg></div>
-    <div class="rtxt"><b>Where we are today</b>
-     <div class="stat3">
-      <div><em>Now</em>Owner-operated support</div>
-      <div><em>Preparing</em>A qualified support team</div>
-      <div><em>Planned</em>Wider community services</div>
-     </div></div>
-   </div>
+   <p class="stline">Owner-operated today. We are preparing a qualified support team, and we will add wider community services only when we are ready.</p>
   </div>
 
   <div class="hright">
@@ -362,7 +365,7 @@ h1.big .ln:nth-child(2)>span{animation-delay:.12s}
 </div></section>
 
 <section class="svc" id="services"><div class="wrap">
- <div class="sh"><div><h2>Our services</h2><span class="note">Draft: service list being confirmed by GraceBridge</span></div>
+ <div class="sh"><div><h2>Our services</h2></div>
   <p>We only describe support we are genuinely prepared and qualified to provide. This list will be refined as the business grows.</p></div>
  <div class="grid">
   <div class="card"><div class="n">01</div><h3>Everyday support</h3><p>Practical help with daily tasks, so people can keep their independence at home.</p><a href="#contact">Ask about this</a></div>
@@ -389,7 +392,7 @@ h1.big .ln:nth-child(2)>span{animation-delay:.12s}
 <section class="three"><div class="wrap">
  <div class="tri">
   <div class="box" id="who"><div class="lab">Who we support</div><h3>People and families in our community</h3>
-   <span class="chip p">Being finalised</span>
+   <span class="chip p">Planned</span>
    <p>We intend to support individuals and families who want help to live independently and take part in everyday life. Exact groups will be confirmed once our operating structure is final.</p>
    <a class="btn" href="#contact" style="font-size:14px">Tell us what you need <i><svg viewBox="0 0 24 24" fill="none" stroke="#0B2A4A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a></div>
   <div class="box" id="organizations"><div class="lab">For organizations</div><h3>A professional route to work together</h3>
